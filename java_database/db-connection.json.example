@@ -1,0 +1,12 @@
+{
+  "postgresql": {
+    "jdbcUrl": "jdbc:postgresql://ep-xxxx.region.aws.neon.tech/neondb?sslmode=require",
+    "user": "neondb_owner",
+    "password": "your-secret"
+  },
+  "mssql": {
+    "jdbcUrl": "jdbc:sqlserver://yourserver.database.windows.net:1433;database=mydb;encrypt=true;trustServerCertificate=false;loginTimeout=30;",
+    "user": "sqladmin",
+    "password": "your-secret"
+  }
+}
